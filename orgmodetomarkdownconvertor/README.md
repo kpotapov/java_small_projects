@@ -1,4 +1,6 @@
-# The utility converts org-mode formatted file into markdown formatted file
+# Convert org-mode into markdown 
+The utility converts an org-mode formatted file into a markdown formatted file.
+
 ## run 
 ./convert.sh input_file_emacs_org_mode.txt  out_file_markdown.md
 
