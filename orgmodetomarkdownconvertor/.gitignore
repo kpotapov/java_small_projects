@@ -35,3 +35,4 @@ buildNumber.properties
 
 #generated files
 src/test/generated-resources/
+!/src/test/generated-resources/org/empty_file.txt
