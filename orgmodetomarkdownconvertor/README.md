@@ -1,15 +1,18 @@
-# run 
+# Convert org-mode into markdown 
+The utility converts an org-mode formatted file into a markdown formatted file.
+
+## run 
 ./convert.sh input_file_emacs_org_mode.txt  out_file_markdown.md
 
-# build
+## build
 ./build.sh
 
-# Markdown description 
+## Markdown description 
 https://en.wikipedia.org/wiki/Markdown
 
-# TODO
+## TODO
 1. process source code parts
 1. process http{s} links
 
-# converter (also convertor)
+## converter (also convertor)
 https://en.oxforddictionaries.com/definition/converter
