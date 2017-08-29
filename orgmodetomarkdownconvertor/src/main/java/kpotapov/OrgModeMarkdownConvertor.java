@@ -13,6 +13,7 @@ import java.util.stream.Collectors;
 @Component
 public class OrgModeMarkdownConvertor {
 
+    // a conversion table
     private final static String[][] TRANSLATION_TABLE = {
             {"-*- mode:org; -*-", ""},
             {"******", "######"},

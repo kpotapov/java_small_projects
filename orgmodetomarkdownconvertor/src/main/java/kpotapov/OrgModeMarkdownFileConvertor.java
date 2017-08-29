@@ -23,6 +23,8 @@ public class OrgModeMarkdownFileConvertor {
 	public void convert() throws IOException {
 		String inString = com.google.common.io.Files.toString(new File(infile), Charset.defaultCharset());
 		String convertedString  = OrgModeMarkdownConvertor.convert(inString);
-		com.google.common.io.Files.write(convertedString.getBytes(), new File(outfile));
+		File targetFile = new File(outfile);
+		com.google.common.io.Files.createParentDirs(targetFile);
+		com.google.common.io.Files.write(convertedString.getBytes(), targetFile);
 	}
 }
