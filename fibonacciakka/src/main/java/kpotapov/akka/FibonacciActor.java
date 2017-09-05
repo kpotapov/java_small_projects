@@ -1,4 +1,4 @@
-package akka;
+package kpotapov.akka;
 
 import akka.actor.AbstractActor;
 import akka.actor.ActorRef;
