@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: venus-service
+
+server:
+  port: 9092
+
